@@ -1,0 +1,6 @@
+<div>
+    {{ parentData }}
+    <ul class="list-group list-group-flush" *ngFor="let user of userList">
+        <li  class="list-group-item">{{ user.id }} - {{ user.name }} -  {{user.username}}   -  {{ user.email }}  -  {{ user.address.street }}</li>
+    </ul> 
+</div>
